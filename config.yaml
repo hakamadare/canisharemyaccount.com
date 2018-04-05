@@ -1,0 +1,9 @@
+baseURL: http://canisharemyaccount.com/
+languageCode: en-us
+title: Can I Share My Account?
+theme: sam
+canonifyUrls: true
+params:
+    mainMenu:
+        - link: "/"
+        - text: "No."
