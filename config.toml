@@ -1,0 +1,15 @@
+baseURL = "https://canisharemyaccount.com/"
+languageCode = "en-us"
+title = "Can I Share My Account?"
+theme = "sam"
+canonifyUrls = "true"
+
+
+[params]
+    title = "Can I share my account?"
+    description = "Can I share my account?  No."
+    favicon = "tn.png"
+
+[[params.mainMenu]]
+    link = "/"
+    text = "Maybe?"
