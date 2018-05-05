@@ -14,8 +14,11 @@ $(document).ready(function(){
             dataType: "json",
         })
             // upcase and append the no
+            // also some nonsense with hiding and showing
             .done(function(resp) {
-                $("#big-link a").html(resp.toProperCase() + '.');
+                $("#big-link a")
+                    .html(resp.toProperCase() + '.')
+                    .toggle();
             })
     })
 });
